@@ -20,6 +20,10 @@
     </nav>
 
     <div class="container">
+        <form method="GET" action="" class="mb-4 d-flex gap-2 text-end" dir="rtl">
+    <input type="text" name="q" class="form-control" placeholder="ابحث عن كتب أو أدوات..." value="{{ request.GET.q }}">
+    <button class="btn btn-primary" type="submit">بحث</button>
+</form>
         <h2 class="mb-4">المنتجات المتاحة حالياً</h2>
         
         <div class="row">
